@@ -10,7 +10,9 @@ import com.viniciusdev.lab_padroes_projeto_spring.model.Endereco;
 import com.viniciusdev.lab_padroes_projeto_spring.model.EnderecoRepository;
 import com.viniciusdev.lab_padroes_projeto_spring.service.ClienteService;
 import com.viniciusdev.lab_padroes_projeto_spring.service.ViaCepService;
+import org.springframework.stereotype.Service;
 
+@Service
 public class ClienteServiceImpl implements ClienteService {
 
     @Autowired

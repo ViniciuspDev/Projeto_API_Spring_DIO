@@ -1,7 +1,9 @@
 package com.viniciusdev.lab_padroes_projeto_spring.service;
 
 import com.viniciusdev.lab_padroes_projeto_spring.model.Cliente;
+import org.springframework.stereotype.Service;
 
+@Service
 public interface ClienteService {
 
     Iterable <Cliente> buscarTodos();
